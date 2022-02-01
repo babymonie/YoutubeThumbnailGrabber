@@ -1,0 +1,75 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+    text-shadow: 0 0 1px #000;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1px #000;
+}
+body{ 
+background-color: #000;
+background-image: linear-gradient(to bottom, #000, #000);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+}
+#check{
+    background-color: rgb(121, 61, 61);
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1px rgb(0, 68, 255);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    right: 0;
+    bottom: 18.30rem;
+    left: 0; 
+    margin: auto;
+}
+#check:hover{
+    background-color: rgb(66, 50, 50);
+    box-shadow: 0 0 1px rgb(0, 68, 255);
+    color: #39ff14;
+    border-radius: 1rem;
+}
+#url{
+    width: 30%;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1px rgb(0, 68, 255);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+    background-color: rgb(121, 61, 61);
+}
+#url:hover{
+    background-color: rgb(66, 50, 50);
+    box-shadow: 0 0 1px rgb(0, 68, 255);
+    color: #39ff14;
+    border-radius: 1rem;
+}
+#url:focus{
+    outline: none;
+}
+#url:focus::placeholder{
+    color: rgb(255, 35, 35);
+}
+#url::placeholder{
+    color: rgb(200, 0, 0);
+}
