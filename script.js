@@ -37,7 +37,7 @@ function check() {
                             console.log(title);
                             var thumbnail_url = data.thumbnail_url;
                             console.log(thumbnail_url);
-                            fetch(thumbnail_url)
+                            fetch(thumbnail_url,{ mode: 'no-cors'})
                             .then(response => {
                                 return response.blob();
                             })
